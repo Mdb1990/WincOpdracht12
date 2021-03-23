@@ -1,0 +1,72 @@
+/** @format */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.links {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 500px;
+}
+
+header {
+  background-color: darkblue;
+}
+.link1:hover {
+  font-weight: bold;
+  color: lightblue;
+  text-decoration: none;
+}
+
+.link2:active {
+  font-style: italic;
+  color: red;
+  text-decoration: none;
+}
+
+.link3:visited {
+  color: yellow;
+}
+
+#text_area:focus {
+  color: green;
+  font-size: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.navlinks li {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  list-style: none;
+  padding: 0px 20px;
+  font-size: 40px;
+}
+
+.navlinks input[type="text"] {
+  display: inline-flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: 2100px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 25px;
+  outline: none;
+}
+
+.currentPage {
+  background-color: rgb(34, 34, 141);
+}
+
+.secondPage:hover {
+  background-color: lightblue;
+}
+
+.navlinks input[type="text"]:focus {
+  border: 3px solid aqua;
+}
